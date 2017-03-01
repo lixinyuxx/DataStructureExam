@@ -30,7 +30,7 @@ private:
 	//우선순위 비교
 	bool comparePriority(int oper1, int oper2);
 
-	bool isNumber(string token);
+	bool isNumber(char token);
 
 	vector<string> getTokens(string input);
 
